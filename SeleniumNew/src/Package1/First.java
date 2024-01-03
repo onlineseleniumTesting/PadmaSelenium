@@ -19,7 +19,7 @@ public class First {
 		driver.findElement(By.id("email")).sendKeys("kumar");
 		driver.findElement(By.name("submit")).click();
 		Thread.sleep(2000);
-		//driver.findElement(By.linkText("sign-in")).click();
+		driver.findElement(By.linkText("sign-in")).click();
 		driver.findElement(By.partialLinkText("sign")).click();
 		Thread.sleep(3000);
 		driver.quit();
