@@ -23,6 +23,7 @@ public class First {
 		driver.findElement(By.partialLinkText("sign")).click();
 		Thread.sleep(3000);
 		driver.quit();
+		System.out.println("Bowser is closed");
 
 	}
 
